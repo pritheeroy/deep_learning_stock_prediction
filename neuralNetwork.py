@@ -27,7 +27,7 @@ plt.xlabel('Date', fontsize=18)
 plt.ylabel('Close Price USD ($)', fontsize=18)
 # plt.show()
 
-# Creating new datafram with only Close Column
+# Creating new dataframe with only Close Column
 data = df.filter(['Close'])
 
 # Converting Dataframe to numpy array
